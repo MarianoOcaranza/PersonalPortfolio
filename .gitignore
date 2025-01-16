@@ -17,6 +17,7 @@ backend/db.sqlite3
 *.pyd
 __pycache__/
 *.sqlite3
+media
 
 # Environment variables
 *.env
