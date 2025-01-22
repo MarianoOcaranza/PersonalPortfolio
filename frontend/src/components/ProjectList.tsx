@@ -31,9 +31,9 @@ const ProjectList: React.FC = () => {
     }
 
     return (
-        <div className='flex max-h-fit items-start justify-center lg:justify-start flex-wrap gap-4'>
+        <div className='flex max-h-fit justify-center flex-wrap gap-3'>
             {projects.map((project) => (
-                <div key={project.id} className="max-w-xs border rounded-lg shadow-lg">
+                <div key={project.id} className="max-w-xs border rounded-lg shadow-lg m-5">
                     <img src={project.preview} alt="" className="rounded-t-lg"/>
                     <div className='p-4 text-start'>
                         <h5 className="text-2xl text-center font-bold tracking-tight text-gray-900"> {project.title}</h5>
@@ -44,7 +44,6 @@ const ProjectList: React.FC = () => {
                     </div>
                     
                 </div>
-
             ))}
         </div>
     )
