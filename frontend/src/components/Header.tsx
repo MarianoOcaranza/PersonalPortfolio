@@ -59,8 +59,8 @@ export default function Header() {
   );
  
   return (
-    <Navbar className="sticky top-0 shadow-none bg-white mx-auto x-4 py-2 border-none lg:px-8 lg:py-4 px-4">
-      <div className="container mx-auto flex items-center justify-around text-black">
+    <Navbar className="text-black sticky top-0 shadow-none bg-white mx-auto x-4 py-2 border-none lg:px-8 lg:py-4 px-4">
+      <div className="container mx-auto flex items-center justify-around">
         <Typography
           as="a"
           href="/"

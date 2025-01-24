@@ -2,7 +2,8 @@
 export default {
   content: [
     './src/*.tsx',
-    './src/components/*.tsx'
+    './src/components/*.tsx',
+    './src/components/common/*.tsx'
   ],
   theme: {
     extend: {},
